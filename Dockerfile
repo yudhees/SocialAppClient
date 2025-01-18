@@ -15,6 +15,8 @@ RUN npm install
 
 RUN npm run build
 
+ENV VITE_SERVER_URL=https://socialappserver.choreoapps.dev
+
 RUN addgroup -g 10014 choreo && \
     adduser --disabled-password --no-create-home --uid 10014 --ingroup choreo choreouser
 

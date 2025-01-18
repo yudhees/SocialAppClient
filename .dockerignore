@@ -4,3 +4,4 @@ package-lock.json
 README.md
 node_modules
 dist
+.git
