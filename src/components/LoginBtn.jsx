@@ -62,7 +62,7 @@ function UserMenu({user,logout}){
           vertical:'bottom'
         }}
        >
-          <MenuItem onClick={logout}>Logout</MenuItem>         
+          <MenuItem onClick={()=>{window.location.reload();logout()}}>Logout</MenuItem>         
        </Menu>
      </>
   )
